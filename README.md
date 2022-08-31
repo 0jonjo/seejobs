@@ -1,24 +1,42 @@
-# README
+# SEEJOBS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is side repository to test API of the [Alljobs](https://github.com/0jonjo/alljobs/), a TDD study project to a job opening website using Ruby on Rails.
 
-Things you may want to cover:
+[Project Board (To do, In Progress, Done)](https://github.com/0jonjo/alljobs/projects/1)
 
-* Ruby version
+Ruby: 3.0.0
+Rails: 6.1.4.1 
+Gems:
+- Faraday (2.5.2)
+- Rspec-rails (5.0.2)
+- Capybara (3.37.1)
 
-* System dependencies
+## Install
 
-* Configuration
+### Clone the repository
 
-* Database creation
+```shell
+git clone git@github.com:0jonjo/seejobs.git
+cd alljobs
+```
 
-* Database initialization
+### Install dependencies
 
-* How to run the test suite
+Using [Bundler](https://github.com/bundler/bundler)
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+bundle install
+```
 
-* Deployment instructions
+## Create and migrate database
 
-* ...
+```shell
+rails db:create 
+rails db:migrate
+```
+
+## Serve
+
+```shell
+rails s
+```
