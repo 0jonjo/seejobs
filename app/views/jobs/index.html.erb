@@ -1,0 +1,13 @@
+<h1>SEEJOBS</h1>
+
+<% if @jobs.empty? %>
+  <p>No Job Openings found.</p>
+<% end %>
+
+<% @jobs.each do |j| %>
+<div>
+  <p>Title: <%= link_to j.title, job_path(j.id) %></p>
+  <p>ID: <%= j.id %></p>
+  <p>Code: <%= j.code %></p>
+</div>
+<% end %>

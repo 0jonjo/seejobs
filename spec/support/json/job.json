@@ -1,0 +1,14 @@
+
+{
+  "id": 1,
+  "title": "Job Opening Test 123",
+  "description": "Lorem ipsum",
+  "skills": "Nam mattis",
+  "salary": "99.0",
+  "company": "Acme",
+  "level": "Junior",
+  "place": "Remote",
+  "date": "2022-08-31",
+  "code": "Ykeabwhq",
+  "job_status": "draft"
+}
